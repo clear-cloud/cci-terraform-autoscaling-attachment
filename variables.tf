@@ -12,10 +12,10 @@ variable "elb_id" {
 
 variable "asg_tg_attachment_required" {
   description = "enables / disables ASG target group attachment"
-  default     = ""
+  default     = "false"
 }
 
 variable "asg_elb_attachment_required" {
   description = "enables / disables ASG ELB attachment"
-  default     = ""
+  default     = "false"
 }
