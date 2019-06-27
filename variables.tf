@@ -1,6 +1,14 @@
-variable "target_group_arn" {}
-variable "asg_id" {}
-variable "elb_id" {}
+variable "target_group_arn" {
+  default = ""
+}
+
+variable "asg_id" {
+  default = ""
+}
+
+variable "elb_id" {
+  default = ""
+}
 
 variable "asg_tg_attachment_required" {
   description = "enables / disables ASG target group attachment"
